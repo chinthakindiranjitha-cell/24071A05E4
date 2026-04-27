@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>GradeServlet</servlet-name>
+        <servlet-class>GradeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GradeServlet</servlet-name>
+        <url-pattern>/grade</url-pattern>
+    </servlet-mapping>
+</web-app>
